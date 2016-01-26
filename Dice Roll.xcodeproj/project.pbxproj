@@ -14,6 +14,12 @@
 		108528881A78E18D00AAA7F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108528871A78E18D00AAA7F9 /* Images.xcassets */; };
 		1085288B1A78E18D00AAA7F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 108528891A78E18D00AAA7F9 /* LaunchScreen.xib */; };
 		108528971A78E18D00AAA7F9 /* Dice_RollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 108528961A78E18D00AAA7F9 /* Dice_RollTests.m */; };
+		108528AA1A78E1A300AAA7F9 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 108528A91A78E1A300AAA7F9 /* InterfaceController.m */; };
+		108528AC1A78E1A300AAA7F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108528AB1A78E1A300AAA7F9 /* Images.xcassets */; };
+		108528B01A78E1A300AAA7F9 /* Dice Roll WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 108528AF1A78E1A300AAA7F9 /* Dice Roll WatchKit App.app */; };
+		108528B81A78E1A300AAA7F9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108528B61A78E1A300AAA7F9 /* Interface.storyboard */; };
+		108528BA1A78E1A300AAA7F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108528B91A78E1A300AAA7F9 /* Images.xcassets */; };
+		108528BD1A78E1A300AAA7F9 /* Dice Roll WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 108528A41A78E1A300AAA7F9 /* Dice Roll WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +30,35 @@
 			remoteGlobalIDString = 108528761A78E18D00AAA7F9;
 			remoteInfo = "Dice Roll";
 		};
+		108528B11A78E1A300AAA7F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1085286F1A78E18D00AAA7F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 108528AE1A78E1A300AAA7F9;
+			remoteInfo = "Dice Roll WatchKit App";
+		};
+		108528BB1A78E1A300AAA7F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1085286F1A78E18D00AAA7F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 108528A31A78E1A300AAA7F9;
+			remoteInfo = "Dice Roll WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		108528C41A78E1A300AAA7F9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				108528BD1A78E1A300AAA7F9 /* Dice Roll WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		108528771A78E18D00AAA7F9 /* Dice Roll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dice Roll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +74,15 @@
 		108528901A78E18D00AAA7F9 /* Dice RollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dice RollTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		108528951A78E18D00AAA7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		108528961A78E18D00AAA7F9 /* Dice_RollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dice_RollTests.m; sourceTree = "<group>"; };
+		108528A41A78E1A300AAA7F9 /* Dice Roll WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Dice Roll WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		108528A71A78E1A300AAA7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108528A81A78E1A300AAA7F9 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		108528A91A78E1A300AAA7F9 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		108528AB1A78E1A300AAA7F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		108528AF1A78E1A300AAA7F9 /* Dice Roll WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dice Roll WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		108528B51A78E1A300AAA7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108528B71A78E1A300AAA7F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		108528B91A78E1A300AAA7F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +100,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		108528A11A78E1A300AAA7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,6 +115,8 @@
 			children = (
 				108528791A78E18D00AAA7F9 /* Dice Roll */,
 				108528931A78E18D00AAA7F9 /* Dice RollTests */,
+				108528A51A78E1A300AAA7F9 /* Dice Roll WatchKit Extension */,
+				108528B31A78E1A300AAA7F9 /* Dice Roll WatchKit App */,
 				108528781A78E18D00AAA7F9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +126,8 @@
 			children = (
 				108528771A78E18D00AAA7F9 /* Dice Roll.app */,
 				108528901A78E18D00AAA7F9 /* Dice RollTests.xctest */,
+				108528A41A78E1A300AAA7F9 /* Dice Roll WatchKit Extension.appex */,
+				108528AF1A78E1A300AAA7F9 /* Dice Roll WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +173,43 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		108528A51A78E1A300AAA7F9 /* Dice Roll WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				108528A81A78E1A300AAA7F9 /* InterfaceController.h */,
+				108528A91A78E1A300AAA7F9 /* InterfaceController.m */,
+				108528AB1A78E1A300AAA7F9 /* Images.xcassets */,
+				108528A61A78E1A300AAA7F9 /* Supporting Files */,
+			);
+			path = "Dice Roll WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		108528A61A78E1A300AAA7F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				108528A71A78E1A300AAA7F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		108528B31A78E1A300AAA7F9 /* Dice Roll WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				108528B61A78E1A300AAA7F9 /* Interface.storyboard */,
+				108528B91A78E1A300AAA7F9 /* Images.xcassets */,
+				108528B41A78E1A300AAA7F9 /* Supporting Files */,
+			);
+			path = "Dice Roll WatchKit App";
+			sourceTree = "<group>";
+		};
+		108528B41A78E1A300AAA7F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				108528B51A78E1A300AAA7F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,10 +220,12 @@
 				108528731A78E18D00AAA7F9 /* Sources */,
 				108528741A78E18D00AAA7F9 /* Frameworks */,
 				108528751A78E18D00AAA7F9 /* Resources */,
+				108528C41A78E1A300AAA7F9 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				108528BC1A78E1A300AAA7F9 /* PBXTargetDependency */,
 			);
 			name = "Dice Roll";
 			productName = "Dice Roll";
@@ -157,6 +250,39 @@
 			productReference = 108528901A78E18D00AAA7F9 /* Dice RollTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		108528A31A78E1A300AAA7F9 /* Dice Roll WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108528C11A78E1A300AAA7F9 /* Build configuration list for PBXNativeTarget "Dice Roll WatchKit Extension" */;
+			buildPhases = (
+				108528A01A78E1A300AAA7F9 /* Sources */,
+				108528A11A78E1A300AAA7F9 /* Frameworks */,
+				108528A21A78E1A300AAA7F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				108528B21A78E1A300AAA7F9 /* PBXTargetDependency */,
+			);
+			name = "Dice Roll WatchKit Extension";
+			productName = "Dice Roll WatchKit Extension";
+			productReference = 108528A41A78E1A300AAA7F9 /* Dice Roll WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		108528AE1A78E1A300AAA7F9 /* Dice Roll WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108528BE1A78E1A300AAA7F9 /* Build configuration list for PBXNativeTarget "Dice Roll WatchKit App" */;
+			buildPhases = (
+				108528AD1A78E1A300AAA7F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dice Roll WatchKit App";
+			productName = "Dice Roll WatchKit App";
+			productReference = 108528AF1A78E1A300AAA7F9 /* Dice Roll WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -172,6 +298,12 @@
 					1085288F1A78E18D00AAA7F9 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 108528761A78E18D00AAA7F9;
+					};
+					108528A31A78E1A300AAA7F9 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					108528AE1A78E1A300AAA7F9 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -190,6 +322,8 @@
 			targets = (
 				108528761A78E18D00AAA7F9 /* Dice Roll */,
 				1085288F1A78E18D00AAA7F9 /* Dice RollTests */,
+				108528A31A78E1A300AAA7F9 /* Dice Roll WatchKit Extension */,
+				108528AE1A78E1A300AAA7F9 /* Dice Roll WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -209,6 +343,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108528A21A78E1A300AAA7F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108528AC1A78E1A300AAA7F9 /* Images.xcassets in Resources */,
+				108528B01A78E1A300AAA7F9 /* Dice Roll WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108528AD1A78E1A300AAA7F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108528B81A78E1A300AAA7F9 /* Interface.storyboard in Resources */,
+				108528BA1A78E1A300AAA7F9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +385,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		108528A01A78E1A300AAA7F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108528AA1A78E1A300AAA7F9 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +400,16 @@
 			isa = PBXTargetDependency;
 			target = 108528761A78E18D00AAA7F9 /* Dice Roll */;
 			targetProxy = 108528911A78E18D00AAA7F9 /* PBXContainerItemProxy */;
+		};
+		108528B21A78E1A300AAA7F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 108528AE1A78E1A300AAA7F9 /* Dice Roll WatchKit App */;
+			targetProxy = 108528B11A78E1A300AAA7F9 /* PBXContainerItemProxy */;
+		};
+		108528BC1A78E1A300AAA7F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 108528A31A78E1A300AAA7F9 /* Dice Roll WatchKit Extension */;
+			targetProxy = 108528BB1A78E1A300AAA7F9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -258,6 +428,14 @@
 				1085288A1A78E18D00AAA7F9 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		108528B61A78E1A300AAA7F9 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				108528B71A78E1A300AAA7F9 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -393,6 +571,62 @@
 			};
 			name = Release;
 		};
+		108528BF1A78E1A300AAA7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Dice_Roll_WatchKit_Extension;
+				INFOPLIST_FILE = "Dice Roll WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		108528C01A78E1A300AAA7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = Dice_Roll_WatchKit_Extension;
+				INFOPLIST_FILE = "Dice Roll WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		108528C21A78E1A300AAA7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dice Roll WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		108528C31A78E1A300AAA7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dice Roll WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -418,6 +652,22 @@
 			buildConfigurations = (
 				1085289E1A78E18D00AAA7F9 /* Debug */,
 				1085289F1A78E18D00AAA7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		108528BE1A78E1A300AAA7F9 /* Build configuration list for PBXNativeTarget "Dice Roll WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108528BF1A78E1A300AAA7F9 /* Debug */,
+				108528C01A78E1A300AAA7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		108528C11A78E1A300AAA7F9 /* Build configuration list for PBXNativeTarget "Dice Roll WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108528C21A78E1A300AAA7F9 /* Debug */,
+				108528C31A78E1A300AAA7F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

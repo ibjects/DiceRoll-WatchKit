@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "875548FD34AEB553BD72A94EACFD72C95F27ECE5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A7EB431973BF61AA4483C5BE369A6BA1082412D1" : 0,
+    "875548FD34AEB553BD72A94EACFD72C95F27ECE5" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "40EA023C-8965-4D93-B5EC-A0AA71F65F6A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A7EB431973BF61AA4483C5BE369A6BA1082412D1" : "Dice%20Roll\/Dice%20Roll%20WatchKit%20Extension\/",
+    "875548FD34AEB553BD72A94EACFD72C95F27ECE5" : "Dice%20Roll\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Dice Roll",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Dice Roll.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ibjects\/DiceRoll-AppleWatch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "875548FD34AEB553BD72A94EACFD72C95F27ECE5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ibjects\/DiceRoll-WatchKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A7EB431973BF61AA4483C5BE369A6BA1082412D1"
+    }
+  ]
+}
